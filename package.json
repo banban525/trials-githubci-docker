@@ -4,7 +4,8 @@
   "description": "GitHub CIでDocker Pushする練習用です。",
   "main": "index.js",
   "scripts": {
-    "exec": "ts-node index.ts"
+    "exec": "ts-node index.ts",
+    "build": "tsc --build tsconfig.json"
   },
   "repository": {
     "type": "git",
